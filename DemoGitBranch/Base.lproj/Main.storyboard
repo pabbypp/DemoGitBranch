@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ga9-0e-Uv5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="puZ-VX-IMa">
+                                <rect key="frame" x="50" y="70" width="275" height="547"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Git的branch运用" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qb-Wk-IhK">
+                                        <rect key="frame" x="74" y="200" width="127.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.14533221154954301" blue="0.11539341206397769" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="4qb-Wk-IhK" firstAttribute="centerX" secondItem="puZ-VX-IMa" secondAttribute="centerX" id="XSd-02-l1u"/>
+                                    <constraint firstItem="4qb-Wk-IhK" firstAttribute="top" secondItem="puZ-VX-IMa" secondAttribute="top" constant="200" id="cWL-rk-ykZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.23065876636496185" blue="0.23152307980331244" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="puZ-VX-IMa" firstAttribute="centerX" secondItem="Ga9-0e-Uv5" secondAttribute="centerX" id="0SO-9u-bce"/>
+                            <constraint firstItem="puZ-VX-IMa" firstAttribute="leading" secondItem="h1I-YT-tfN" secondAttribute="leading" constant="50" id="7GK-Z4-82o"/>
+                            <constraint firstItem="h1I-YT-tfN" firstAttribute="bottom" secondItem="puZ-VX-IMa" secondAttribute="bottom" constant="50" id="8ZV-43-bEZ"/>
+                            <constraint firstItem="puZ-VX-IMa" firstAttribute="top" secondItem="h1I-YT-tfN" secondAttribute="top" constant="50" id="cZI-wN-R5b"/>
+                            <constraint firstItem="h1I-YT-tfN" firstAttribute="trailing" secondItem="puZ-VX-IMa" secondAttribute="trailing" constant="50" id="wJa-Ov-n4L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="h1I-YT-tfN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
