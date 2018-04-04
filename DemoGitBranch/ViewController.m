@@ -17,9 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
    
     self.launchLbl.font = [UIFont systemFontOfSize:24];
     [self.launchLbl sizeToFit];
+
+    self.launchLbl.textColor = [UIColor blackColor];
+    
+    self.launchLbl.text = @"sunshine 的分支";
+
 }
 
 
